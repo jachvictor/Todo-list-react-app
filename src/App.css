@@ -15,19 +15,17 @@ body {
   align-content: center;
   justify-items: center;
   flex-wrap: wrap;
-  /* background-color: black; */
-  /* color: white; */
 }
 .contain {
-  height: 15cm;
+  height: auto 11cm;
   width: 13cm;
   background-color: blue;
   color: white;
   margin-top: 2cm;
-  /* margin-left: 12cm; */
   border-radius: 2cm;
   margin-bottom: 1cm;
-  padding-top: 0.3cm;
+  padding-top: 1cm;
+  padding-bottom: 1.5cm;
 }
 .deletetask {
   background-color: red;
@@ -67,10 +65,7 @@ body {
   border-radius: 0.5cm;
   margin-left: 0.2cm;
 }
-.checkcomplete {
-  /* background-color: rgb(233, 222, 222); */
-  /* color: white; */
-}
+
 .completetask {
   background-color: rgb(13, 13, 12);
   border-radius: 0.5cm;
