@@ -1,38 +1,79 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  /* background-color: black; */
+  /* color: white; */
+}
+.contain {
+  height: 15cm;
+  width: 13cm;
+  background-color: blue;
   color: white;
+  margin-top: 2cm;
+  /* margin-left: 12cm; */
+  border-radius: 2cm;
+  margin-bottom: 1cm;
+  padding-top: 0.3cm;
 }
-
-.App-link {
-  color: #61dafb;
+.deletetask {
+  background-color: red;
+  color: white;
+  border-radius: 0.5cm;
+  margin-left: 0.2cm;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addbutton {
+  background-color: green;
+  color: white;
+  height: 1cm;
+  width: 1.3cm;
+  border-radius: 1cm;
+  margin-left: 0.2cm;
+}
+.taskinput {
+  height: 1cm;
+  width: 8cm;
+  border-radius: 1cm;
+  font-size: x-large;
+  padding-left: 0.5cm;
+}
+.todos {
+  border: black;
+  height: 0.7cm;
+  width: 6cm;
+  border-radius: 0.5cm;
+  margin-top: 0.5cm;
+  background-color: rgb(176, 175, 175);
+  font-size: large;
+  padding-left: 0.2cm;
+  margin-bottom: 0.3cm;
+}
+.edittask {
+  background-color: yellow;
+  color: black;
+  border-radius: 0.5cm;
+  margin-left: 0.2cm;
+}
+.checkcomplete {
+  /* background-color: rgb(233, 222, 222); */
+  /* color: white; */
+}
+.completetask {
+  background-color: rgb(13, 13, 12);
+  border-radius: 0.5cm;
+  color: white;
+  margin-left: 0.2cm;
 }
